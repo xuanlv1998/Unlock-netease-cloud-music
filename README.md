@@ -8,7 +8,7 @@
 
 <span style="color:orangered;font-weight:bold;">注：教程有点长，如果实在没有耐心请直接滑到最下方观看浏览器听音乐方案</span>
 
-[![04GFbt.png](https://s1.ax1x.com/2020/10/14/04GFbt.png)
+![04GFbt.png](https://s1.ax1x.com/2020/10/14/04GFbt.png)
 
 ## 特性
 
@@ -236,6 +236,6 @@ https://github.com/ndroi/easy163
 
 **注：如加载缓慢可前往本人码云项目查看**[https://gitee.com/meng-chuan/Unlock-netease-cloud-music](https://gitee.com/meng-chuan/Unlock-netease-cloud-music)
 
-码字不易，欢迎各位金主大大打赏
+**码字不易，欢迎各位金主大大打赏**
 
 ![0gr7L9.png](https://s1.ax1x.com/2020/10/11/0gr7L9.png)
