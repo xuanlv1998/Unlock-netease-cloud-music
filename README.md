@@ -145,7 +145,9 @@ iOS端的使用也同样必须要连接WiFi，iOS 设备还需安装 CA 证书�
 
 <span style="color:orangered;font-weight:bold;">**Windows系统服务器：**</span>
 
-**纯文字教学：**其实非常简单，就跟Windows端方法一一样，只需要在服务器上安装node.js，然后点开运行网易☁🎵.bat这个文件就可以了，然后去防火墙开放端口52000，网易云音乐代理服务器填服务器ip或者绑定服务器的域名，端口填52000就可以了。你也可以使用用宝塔面板的pm2添加项目直接运行就行了。如果你知道我在说什么，那么下面的图文教学就不用看了。
+**纯文字教程：**
+
+其实非常简单，就跟Windows端方法一一样，只需要在服务器上安装node.js，然后点开运行网易☁🎵.bat这个文件就可以了，然后去防火墙开放端口52000，网易云音乐代理服务器填服务器ip或者绑定服务器的域名，端口填52000就可以了。你也可以使用用宝塔面板的pm2添加项目直接运行就行了。如果你知道我在说什么，那么下面的图文教学就不用看了。
 
 <span style="color:orangered;font-weight:bold;">**图文教学：**</span>
 
@@ -181,7 +183,7 @@ iOS端的使用也同样必须要连接WiFi，iOS 设备还需安装 CA 证书�
 
 <span style="color:orangered;font-weight:bold;">**方法二：**</span>
 
-**1.提前把项目源码下载到电脑上，然后解压**
+**1.提前把项目源码下载到服务器上，然后解压**
 
 项目源码下载地址：https://lesskiss.lanzoui.com/b00oj1s2f 密码:6666
 
@@ -207,11 +209,7 @@ iOS端的使用也同样必须要连接WiFi，iOS 设备还需安装 CA 证书�
 
 **3.宝塔面板上直接部署：**
 
-登录进去以后点击文件，上传，选择提前下载并解压好的项目文件夹直接上传
-
-[![gGVTAK.png](https://z3.ax1x.com/2021/05/08/gGVTAK.png)](https://imgtu.com/i/gGVTAK)
-
-然后点击软件管理，搜索pm2，直接安装
+登录进去以后直接点击软件管理，搜索pm2，直接安装
 
 [![g8TE3d.png](https://z3.ax1x.com/2021/05/08/g8TE3d.png)](https://imgtu.com/i/g8TE3d)
 
@@ -243,7 +241,9 @@ iOS端的使用也同样必须要连接WiFi，iOS 设备还需安装 CA 证书�
 
 <span style="color:orangered;font-weight:bold;">**Linux系统服务器：**</span>
 
-**文字教程：**直接用宝塔面板的pm2运行吧，简单粗暴。如果你不知道我在说什么，请看下面的图文教程
+**纯文字教程：**
+
+直接用宝塔面板的pm2运行吧，简单粗暴。如果你不知道我在说什么，请看下面的图文教程
 
 **图文教程：**
 
@@ -255,7 +255,11 @@ iOS端的使用也同样必须要连接WiFi，iOS 设备还需安装 CA 证书�
 
 ![g8oTBV.png](https://z3.ax1x.com/2021/05/08/g8oTBV.png)
 
-登录完成后，去软件商店搜索安装pm2，然后设置
+登录进去以后点击文件，上传，选择提前下载并解压好的项目文件夹直接上传
+
+[![gGVTAK.png](https://z3.ax1x.com/2021/05/08/gGVTAK.png)](https://imgtu.com/i/gGVTAK)
+
+然后去软件商店搜索安装pm2，然后设置
 
 ![g8TE3d.png](https://z3.ax1x.com/2021/05/08/g8TE3d.png)
 
