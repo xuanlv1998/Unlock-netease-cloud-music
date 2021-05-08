@@ -181,7 +181,7 @@ iOS端的使用也同样必须要连接WiFi，iOS 设备还需安装 CA 证书�
 
 <span style="color:orangered;font-weight:bold;">**方法二：**</span>
 
-**1.提前把项目源码下载到服务器上，然后解压**
+**1.提前把项目源码下载到电脑上，然后解压**
 
 项目源码下载地址：https://lesskiss.lanzoui.com/b00oj1s2f 密码:6666
 
@@ -207,7 +207,11 @@ iOS端的使用也同样必须要连接WiFi，iOS 设备还需安装 CA 证书�
 
 **3.宝塔面板上直接部署：**
 
-登录进去以后点击软件管理，搜索pm2，直接安装
+登录进去以后点击文件，上传，选择提前下载并解压好的项目文件夹直接上传
+
+[![gGVTAK.png](https://z3.ax1x.com/2021/05/08/gGVTAK.png)](https://imgtu.com/i/gGVTAK)
+
+然后点击软件管理，搜索pm2，直接安装
 
 [![g8TE3d.png](https://z3.ax1x.com/2021/05/08/g8TE3d.png)](https://imgtu.com/i/g8TE3d)
 
