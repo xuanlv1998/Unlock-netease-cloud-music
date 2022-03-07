@@ -2,27 +2,12 @@ const cli = {
 	width: 80,
 	_program: {},
 	_options: [],
+	port: "8999:8081",
 	program: (information = {}) => {
 		cli._program = information
 		return cli
 	},
 	option: (flags, addition = {}) => {
-		// name or flags - Either a name or a list of option strings, e.g. foo or -f, --foo.
-		// dest - The name of the attribute to be added to the object returned by parse_options().
-
-		// nargs - The number of command-line arguments that should be consumed. // N, ?, *, +, REMAINDER
-		// action - The basic type of action to be taken when this argument is encountered at the command line. // store, store_true, store_false, append, append_const, count, help, version
-
-		// const - A constant value required by some action and nargs selections. (supporting store_const and append_const action)
-
-		// metavar - A name for the argument in usage messages.
-		// help - A brief description of what the argument does.
-
-		// required - Whether or not the command-line option may be omitted (optionals only).
-		// default - The value produced if the argument is absent from the command line.
-		// type - The type to which the command-line argument should be converted.
-		// choices - A container of the allowable values for the argument.
-
 		flags = Array.isArray(flags) ? flags : [flags]
 		addition.dest = addition.dest || flags.slice(-1)[0].toLowerCase().replace(/^-+/, '').replace(/-[a-z]/g, character => character.slice(1).toUpperCase())
 		addition.help = addition.help || {'help': 'output usage information', 'version': 'output the version number'}[addition.action]
@@ -75,7 +60,6 @@ const cli = {
 			cli[cli._options[index].dest] = value
 		}
 		if (positionals.length) error(`the following arguments are required: ${positionals.map(index => cli._options[index].flags[0]).join(', ')}`)
-		// cli._options.forEach(option => console.log(option.dest, cli[option.dest]))
 		return cli
 	}
 }
